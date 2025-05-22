@@ -26,21 +26,24 @@ Mostrar tus habilidades técnicas en Android con Kotlin, MVVM, consumo de API RE
 
 El proyecto sigue el patrón MVVM + Repository con separación de capas y responsabilidades.
 
-📁 Estructura
+## 📂 Estructura
 
+```text
 prueba.practica/
 ├── data/
-│   ├── local/           # Room (DAO, Entity, Database)
-│   ├── remote/          # API, Retrofit, DTO
-│   └── repository/      # ToDoRepository.kt
+│   ├── local/        # Room (DAO, Entity, Database)
+│   ├── remote/       # API, Retrofit, DTO
+│   └── repository/   # ToDoRepository.kt
 │
 ├── ui/
-│   ├── adapter/         # ToDoAdapter (RecyclerView)
-│   ├── screen/          # ToDoScreen.kt (controlador de UI)
-│   └── viewmodel/       # ToDoViewModel.kt
+│   ├── adapter/      # ToDoAdapter (RecyclerView)
+│   ├── screen/       # ToDoScreen.kt (controlador de UI)
+│   └── viewmodel/    # ToDoViewModel.kt
 │
-├── MainActivity.kt      # Entrada de la app, delega a ToDoScreen
-└── MyApplication.kt     # Inicializa Hilt
+├── MainActivity.kt   # Entrada de la app, delega a ToDoScreen
+└── MyApplication.kt  # Inicializa Hilt
+```
+
 
 ---
 ⚙️ Tecnologías y Librerías
